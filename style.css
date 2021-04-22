@@ -1,0 +1,109 @@
+h1 {
+  text-align: center;
+}
+
+.input {
+  background-color:aquamarine;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.post {
+  background-color: antiquewhite;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.live {
+  color: red;
+}
+#cityName {
+  width: 40%;
+  height: 2rem;
+}
+
+#search {
+  width: 20%;
+  height: 2rem;
+  color: white;
+  background-color: blueviolet;
+  border: 0ch;
+  margin: 1% 1% 1% 1%;
+  font-size: larger;
+  cursor: pointer;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.middle .parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.middle .box {
+  flex: 1 1 150px; /*  Stretching: */
+  /* flex: 0 1 150px;  No stretching: */
+  margin: 5px;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    
+}
+li{
+    margin-top: 1.5%;
+    cursor: pointer;
+}
+li a{
+    
+    color:blue;
+    
+}
+
+img{
+    width: 20%;
+}
+
+.top{
+    background-color: orange;
+    text-align: center;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: blue;
+    width: max-content;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  
+}
+.about{
+    background-color:aquamarine;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+
